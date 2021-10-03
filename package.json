@@ -12,6 +12,7 @@
         "start": "ng serve",
         "test": "ng test"
     },
+    "prepare": "npm run build",
     "repository": {
         "type": "git",
         "url": "https://www.github.com/wittlock/ngx-image-zoom"
