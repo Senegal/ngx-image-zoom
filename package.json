@@ -10,7 +10,8 @@
         "release": "npm run build:release && npm publish dist/",
         "release:beta": "npm run build:release && npm publish dist/ --tag beta",
         "start": "ng serve",
-        "test": "ng test"
+        "test": "ng test",
+        "prepare": "npm run build"
     },
     "prepare": "npm run build",
     "repository": {
